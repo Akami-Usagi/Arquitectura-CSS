@@ -1,0 +1,67 @@
+.quienes{
+   padding: 5rem;
+    text-align: center;
+}
+
+.quienes__titulo{
+    font-family: Pacifico, cursive;
+    font-size: 4rem;
+    color: red;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.quienes__descripcion{
+    color: rgb(100, 100, 100);
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+
+.persona{
+    display: flex;
+    flex-direction: column;
+}
+
+.persona__imagen{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.persona__imagen--roberta{
+    background-image: url(/assets/img/personas/roberta.jpg);
+}
+
+.persona__imagen--marcela{
+    background-image: url(/assets/img/personas/marcela.jpg);
+}
+
+.persona__imagen--andreia{
+    background-image: url(/assets/img/personas/andrea.jpg);
+}
+
+.persona__nombre{
+    margin-top: 1rem;
+    font-family: Pacifico, cursive;
+    font-size: 2.5rem;
+    color: red;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.persona__funcion{
+    color: rgb(100, 100, 100);
+    font-size: 1.25rem;
+    font-weight: 100;
+    text-transform: lowercase;
+}

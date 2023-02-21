@@ -1,0 +1,16 @@
+.sobre{
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.sobre__titulo{
+    color: rgb(255, 0, 0);
+    font-family: Pacifico, cursive;
+    font-size: 3.1875rem;
+}
+
+.sobre__descripcion{
+    color: rgb(131, 131, 131);
+    font-size: 1.55rem;
+    font-weight: 100;
+}
